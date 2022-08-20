@@ -60,13 +60,13 @@
         <div class="flex flex-col md:flex-row w-[70vw]">
           <div class="basis-[100%] lg:basis-[30%]">
             <div class="columns-2 text-center md:text-left">
-              <div class="break-inside-avoid-column mt-[5px]" v-for="specification in work.specifications"
+              <div class="break-inside-avoid-column mt-5" v-for="specification in work.specifications"
                 :key="specification.title">
                 <div class="text-sm text-white uppercase">
                   {{ specification.title }}
                 </div>
                 <div v-for="bullet in specification.bullets" :key="bullet">
-                  <div class="text-xs text-[#c5c5c5]">{{ bullet }}</div>
+                  <div class="text-xs text-[#c5c5c5] mt-[5px]">{{ bullet }}</div>
                 </div>
               </div>
             </div>
@@ -117,7 +117,7 @@
             lg:h-[35vw]
             xl:h-[32vw]
             rounded-xl
-            bg-slate-300" :src="require('@/static/projects_papers/' + work.image)">
+            bg-slate-300" :src="require('@/static/projects_papers/' + work.imageIn)">
         <div class="mt-[50px]">
           <div v-for="detail in work.details" :key="detail.title" class="mt-5">
             <h3 class="text-base font-semibold md:text-lg text-[#718471] uppercase">{{ detail.title }}</h3>

@@ -87,9 +87,7 @@
             </div>
 
             <div class="card w-[300px] sm:w-[500px]">
-                <a href ="/cbt-blockchain">
                     <img src="@/static/projects_papers/music genre classification.jpg" class="w-full h-[300px] bg-white object-contain">
-                </a>
                 <div class="uppercase text-base mt-6">
                     Updated Soon
                 </div>

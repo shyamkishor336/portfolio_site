@@ -12,24 +12,24 @@
             <input id="toogleA" type="checkbox" class="sr-only" />
             <div class="dot m-[4px] h-[25px] w-[25px] bg-[#adaeae] rounded-full absolute"></div>
           </div> -->
-            <label for="toggleB" class="flex items-center cursor-pointer" >
-              <div class="relative">
-                <input v-model="onPapers" type="checkbox" id="toggleB" class="sr-only">
-                <div class="block w-[85px] h-[34px] bg-[#dee0e0] rounded-full"></div>
-                <div class="dot absolute left-1 top-1 h-[26px] w-[26px] bg-[#adaeae] rounded-full transition"></div>
-              </div>
-            </label>
+          <label for="toggleB" class="flex items-center cursor-pointer">
+            <div class="relative">
+              <input v-model="onPapers" type="checkbox" id="toggleB" class="sr-only">
+              <div class="block w-[85px] h-[34px] bg-[#dee0e0] rounded-full"></div>
+              <div class="dot absolute left-1 top-1 h-[26px] w-[26px] bg-[#adaeae] rounded-full transition"></div>
+            </div>
+          </label>
           <div class="uppercase text-5">Papers</div>
         </div>
       </div>
       <div id="projects-papers">
-        <Transition name="papers">  
+        <Transition name="papers">
           <PaperList ref="papers" v-if="onPapers" />
         </Transition>
-        <Transition name="projects">  
+        <Transition name="projects">
           <ProjectList ref="projects" v-if="!onPapers" />
         </Transition>
-        
+
       </div>
     </div>
     <Footer />
@@ -38,39 +38,55 @@
 
 <script>
 export default {
-  head(){
-    return{
+  head() {
+    return {
       title: "Sachin Parajuli"
     }
   },
-  data(){
-    return{
-      onPapers: true ,
+  data() {
+    return {
+      onPapers: true,
+      loaded: false
+    }
+  },
+  mounted(){
+    var onPapers = localStorage.getItem("onPapers")
+    if (onPapers == "false") onPapers = false
+    else onPapers = true
+    this.onPapers = onPapers
+    this.loaded = true
+  },
+  watch: {
+    onPapers(value) {
+      if (process.client && this.loaded) {
+        localStorage.setItem("onPapers", value)
+      }
     }
   }
 }
 </script>
 
 <style scoped>
-
-
-input:checked ~ .dot {
+input:checked~.dot {
   transform: translateX(200%);
 }
-.papers-enter{
+
+.papers-enter {
   margin-left: 30px;
   opacity: 0.5;
 }
-.projects-enter{
+
+.projects-enter {
   margin-left: -30px;
   opacity: 0.5;
 }
-.projects-enter-active, .papers-enter-active{
+
+.projects-enter-active,
+.papers-enter-active {
   transition: all 0.7s ease-in-out;
 }
 
 #projects-papers {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-
 </style>

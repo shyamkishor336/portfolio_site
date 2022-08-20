@@ -5,7 +5,8 @@ export const state = () => ({
         "blood-connect": {
             "type": "project",
             "title": "BLOOOD CONNECT: CONNECT WITH CARE",
-            "image": "blood connect 1.png",
+            "image": "blood connect 2.png",
+            "imageIn": "blood connect 1.png",
             "specifications": [
                 {
                     "title": "Domain",
@@ -43,6 +44,15 @@ export const state = () => ({
                         { "title": "PUBLIC REQUESTS: ", "detail": "There is a View Request section where anyone can view blood request made by patient party near their location. All the necessary information including contact details is given in the request and you may call the patient’s contact person to donate blood if the blood group matches with you. You may send the information of patient to your friend or family whose blood group matches with the patient via in-app share service." },
                     ],
                     "extraDetail": "We will ask for location permission to optimize the service based on location and messaging permission to send you OTP for registration. We “BLOOD CONNECT”. application do not charge money for any service we provide you."
+                },
+                {
+                    "title": "",
+                    "subtitle": "",
+                    "image": "blood_connect_certificate.jpg",
+                    "type": "bullet",
+                    "detail": [
+                    ],
+                    "extraDetail": ""
                 }
             ],
             "buttons": [
@@ -58,10 +68,11 @@ export const state = () => ({
             "type": "project",
             "title": "HELLO AMBULANCE",
             "image": "hello ambulance 1.png",
+            "imageIn": "hello ambulance 1.png",
             "specifications": [
                 {
                     "title": "Domain",
-                    "bullets": ["Android Applicaiton", "Java"]
+                    "bullets": ["Android Applicaiton", "FLutter"]
                 },
                 {
                     "title": "Intended Users",
@@ -69,7 +80,7 @@ export const state = () => ({
                 },
                 {
                     "title": "Collaborating Organizations",
-                    "bullets": ["Nepal Red Cross Society", "Blood for Nepal"]
+                    "bullets": ["Nepal Red Cross Society", "Nepal Ambulance Drivers Association", "Ministry of Health and Population, Nepal Govt."]
                 }
             ],
             "details": [
@@ -84,7 +95,7 @@ export const state = () => ({
                 {
                     "title": "Project overview",
                     "subtitle": "",
-                    "image": "blood connect 2.png",
+                    "image": "",
                     "type": "paragraph",
                     "detail": [
                         "This application recommends user with nearest ambulance and has in app calling feature. Ambulance is mostly requested during emergency and we’ve cut the hassle to navigate through complicated user interface. All user needs to do is open the application and just tap on any ambulance it recommends on front page. As Nepal is a developing nation with internet penetration just around 38% and cellular data is inaccessible and expensive so hello ambulance is built to operate without active internet connection across Nepal."
@@ -93,7 +104,7 @@ export const state = () => ({
                 }
             ],
             "buttons": [
-                { "title": "Github", "redirect_to": "https://www.youtube.com/watch?v=5yq01VK_bX4" },
+                { "title": "App", "redirect_to": "https://play.google.com/store/apps/details?id=com.ambulance.hello_ambulance&hl=en&gl=US" },
             ],
             "next_page_buttons": [
                 { "title": "Prev Page", "work_name": "Page 1", "redirect_to": "/blood-connect" },
@@ -102,8 +113,9 @@ export const state = () => ({
         },
         "rfid-payment-system": {
             "type": "project",
-            "title": "RFID BASED PREPAID PAYMENT SYSTEM",
+            "title": "RFID BASED PREPAID PAYMENT SYSTEM FOR EV",
             "image": "rfid-prepaid-1.png",
+            "imageIn": "rfid prepaid-2.png",
             "specifications": [
                 {
                     "title": "Domain",
@@ -163,6 +175,7 @@ export const state = () => ({
             "type": "project",
             "title": "COMPUTER BASED TEST ON BLOCKCHAIN",
             "image": "CBT using blockchain.png",
+            "imageIn": "cbt-on blockchain-2.jpg",
             "specifications": [
                 {
                     "title": "Domain",
@@ -171,10 +184,6 @@ export const state = () => ({
                 {
                     "title": "Intended Users",
                     "bullets": ["Educational Institute", "Test Takers"]
-                },
-                {
-                    "title": "Location of project",
-                    "bullets": ["Indo-Nepal Border, Kakarvitta."]
                 }
             ],
             "details": [
@@ -202,18 +211,15 @@ export const state = () => ({
             "type": "project",
             "title": "POWER DISTRIBUTION USING BLOCKCHAIN",
             "image": "decentralized power distribution.png",
+            "imageIn": "Decentralised power-2.jpg",
             "specifications": [
                 {
                     "title": "Domain",
-                    "bullets": ["Android Application", "Flutter", "Solidity"]
+                    "bullets": ["Web Application", "Solidity", "Smart Contracts"]
                 },
                 {
                     "title": "Intended Users",
-                    "bullets": ["Educational Institute", "Test Takers"]
-                },
-                {
-                    "title": "Location of project",
-                    "bullets": ["Indo-Nepal Border, Kakarvitta."]
+                    "bullets": ["Energy Consumers", "Power Plants", "Power Distributors"]
                 }
             ],
             "details": [
@@ -236,7 +242,38 @@ export const state = () => ({
                         "Also country like Nepal, rich in water resources can have a power economy of almost 20 billion dollars and this big chunk of national economy to a unit organisation.",
                         "We believe that, if large structures are broken down of primitive ways and regulated using smart contracts, we can get make the entire energy network more efficient and fraud proof. This can also enable small energy players to act in the network and literally save power."],
                     "extraDetail": ""
-                }
+                },
+                {
+                    "title": "Concept",
+                    "subtitle": "",
+                    "image": "",
+                    "type": "paragraph",
+                    "detail": ["We propose to disintegrate large 'do-all'polies like NEA into different units like a regulatory unit, dritriubutors and energy generators. So there are power plants, distributors and consumers in a distribution network which could be regulated by a regulatory unit."],
+                    "extraDetail": ""
+                },
+                {
+                    "title": "Operation",
+                    "subtitle": "",
+                    "image": "",
+                    "type": "paragraph",
+                    "detail": ["There must be energy meters( regulated by regulatory unit) to measure energy transfers through each of power plants, distributors and to consumers. The energy meter must run scripts to transfer the reading to the smart contract which then writes it to the blockchain.",
+                                "In our demo, we have mocked a distribution network with a power plant (battery), distributor (nothing) and consumer (load). We're calculating energy flow through each using voltage and current sensors and sending the value to raspberry pi which then calls the ethereum TestNet contract's functions to write data to blockchain. This happens in equal time interval( for now its 5 minutes ).",
+                                "*In real world the energy meter, monitored by regulatory unit would have to run script (as an access point for oracle) *",
+                            "Actually, in our script the data gets pushed in three parts:"],
+                    "extraDetail": ""
+                },
+                {
+                    "title": "",
+                    "subtitle": "",
+                    "image": "",
+                    "type": "paragraph",
+                    "detail": ["First the plants unit reading is pushed through a contract function which also generates equivalent ERC777 tokens and transfers it to the connected distributor energy-meter's account.",
+                     "Then distributor's data is sent. Now, distributor pays for the tokens with ETHER as per pre-determined cost. Then compares the obtained units with the transferred token.Tokens transferred from the plant would of course be more than the units received as data, and the difference is the Actual Loss. Then the units received are converted to tokens and sent to the only consumer. Now, because there's loss of power through transmission and the distributor has to be compensated for its service so the token's cost increases as per this factor:",
+                    "(Ideal Loss (%) + Distributor Service Cost (%) ) - [(Actual Loss (%) - Ideal Loss (%)) if > 0] * Penalty",
+                "Here token cost has to increase to incorporate the loss and the distributors cost. Then, the distributor would be penalised if the Actual Loss goes beyond the Ideal Voltage Loss , which is the surveyed loss in that portion. Actual Loss being more than the Ideal Voltage Loss only means that the distributor is not handling the power properly or is distributing power other than to determined consumer.",
+            "After that the ETHER is paid by consumer as per new cost on units used."],
+                    "extraDetail": "In this way, all the transactions are cleared on each lot( here 5 mins). In our demo 1 Unit = 0.1 micro KwH"
+                },
             ],
             "buttons": [
                 { "title": "Github", "redirect_to": "https://github.com/SACHIN-PARAJULI/decentral-power-distribution-system-using-blockchain-" },
@@ -252,6 +289,7 @@ export const state = () => ({
             "type": "project",
             "title": "A DATA DRIVEN APPROACH TO PREDICT THE RISK OF READMISSION AMONG PATIENTS WITH DIABETES MELLITUS",
             "image": "diabetes.jpg",
+            "imageIn": "diabetes.jpg",
             "specifications": [
                 {
                     "title": "Published",
@@ -293,6 +331,7 @@ export const state = () => ({
             "type": "project",
             "title": "HUMAN POSE ESTIMATION IN 3D USING HEATMAPS",
             "image": "humanpose.png",
+            "imageIn": "humanpose.png",
             "specifications": [
                 {
                     "title": "Published",
@@ -334,6 +373,7 @@ export const state = () => ({
             "type": "project",
             "title": "Remote Monitoring and Face Recognition Security Enabled Smart Home using IoT",
             "image": "IOT.png",
+            "imageIn": "IOT.png",
             "specifications": [
                 {
                     "title": "Published",
@@ -375,6 +415,7 @@ export const state = () => ({
             "type": "project",
             "title": "NEPALI MUSIC GENERE CLASSIFICATION",
             "image": "music genre classification.jpg",
+            "imageIn": "music genre classification.jpg",
             "specifications": [
                 {
                     "title": "Published",

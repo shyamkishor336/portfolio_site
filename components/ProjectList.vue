@@ -3,7 +3,7 @@
         <div class="sm:w-[1050px] grid lg:grid-cols-2 gap-y-10 justify-items-center">
             <div class="card lg:w-[500px]">
                 <a href="/blood-connect">
-                    <img src="@/static/projects_papers/blood connect 1.png" class="w-full h-[300px] bg-white object-contain">
+                    <img src="@/static/projects_papers/blood connect 3.png" class="w-full h-[300px] bg-white object-contain">
                 </a>
                 <div class="uppercase text-base mt-6 ">
                     Blood Connect
@@ -66,7 +66,7 @@
                     All Nepal CS
                 </div>
                 <div class="text-2xl text-bold mt-2">
-                    RFID BASED PREPAID PAYMENT SYSTEM
+                    RFID BASED PREPAID PAYMENT SYSTEM FOR EV
                 </div>
                 <div class="mt-2">
                     <div class="inline-block mt-3">
@@ -101,9 +101,6 @@
                             Android Applicaiton
                         </span>
                         <span class="p-2 mr-2 text-xs bg-slate-300 rounded-lg" >
-                            Flutter
-                        </span>
-                        <span class="p-2 mr-2 text-xs bg-slate-300 rounded-lg" >
                             Solidity
                         </span>
                     </div>
@@ -128,10 +125,7 @@
                 <div class="mt-2">
                     <div class="inline-block mt-3">
                         <span class="p-2 mr-2 mt-5 text-xs bg-slate-300 rounded-lg" >
-                            Android Applicaiton
-                        </span>
-                        <span class="p-2 mr-2 text-xs bg-slate-300 rounded-lg" >
-                            Flutter
+                            Smart Contracts
                         </span>
                         <span class="p-2 mr-2 text-xs bg-slate-300 rounded-lg" >
                             Solidity
