@@ -20,7 +20,7 @@
                     <div class="flex flex-row py-[2vw] text-[2vw]">
                         <nuxt-link to="/" class="mx-[2vw]">Home</nuxt-link>
                         <nuxt-link to="/#projects-papers" class="mx-[2vw] ">Projects/Papers</nuxt-link>
-                        <nuxt-link to="/" class="mx-[2vw] ">CV</nuxt-link>
+                        <a target="_blank" href="/SACHIN_CV.pdf" class="mx-[2vw] ">CV</a>
                     </div>
                 </div>
             </div>
@@ -33,10 +33,10 @@
                 <div class="basis-1/5">
                     <div class="flex h-full justify-end">
                         <div class="flex h-full flex-col justify-center mr-[3vw]">
-                            <a href="https://www.linkedin.com/in/sachin-parajuli-799612169/"><img  src="@/static/linkedin.png" class="w-[4vw] 2xl:w-[60px] my-[1vw] hover:cursor-pointer" /></a>
-                            <a href="https://github.com/SACHIN-PARAJULI" ><img src="@/static/github.png" class="w-[4vw] 2xl:w-[60px] my-[1vw] hover:cursor-pointer" /></a>
-                            <a href="https://scholar.google.com/citations?user=23uwkq4AAAAJ&hl=en"><img src="@/static/google.png" class="w-[4vw] 2xl:w-[60px] my-[1vw] hover:cursor-pointer" /></a>
-                            <a href="https://www.researchgate.net/profile/Sachin-Parajuli-2"><img src="@/static/researchgate.png" class="w-[4vw] 2xl:w-[60px] my-[1vw] hover:cursor-pointer" /></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/sachin-parajuli-799612169/"><img  src="@/static/linkedin.png" class="w-[4vw] 2xl:w-[60px] my-[1vw] hover:cursor-pointer hover:scale-125" /></a>
+                            <a target="_blank" href="https://github.com/SACHIN-PARAJULI" ><img src="@/static/github.png" class="w-[4vw] 2xl:w-[60px] my-[1vw] hover:cursor-pointer hover:scale-125" /></a>
+                            <a target="_blank" href="https://scholar.google.com/citations?user=23uwkq4AAAAJ&hl=en"><img src="@/static/google.png" class="w-[4vw] 2xl:w-[60px] my-[1vw] hover:cursor-pointer hover:scale-125" /></a>
+                            <a target="_blank" href="https://www.researchgate.net/profile/Sachin-Parajuli-2"><img src="@/static/researchgate.png" class="w-[4vw] 2xl:w-[60px] my-[1vw] hover:cursor-pointer hover:scale-125" /></a>
                         </div>
                     </div>
                 </div>

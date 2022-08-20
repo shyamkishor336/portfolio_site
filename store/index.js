@@ -283,6 +283,55 @@ export const state = () => ({
                 { "title": "Next Page", "work_name": "Page 2", "redirect_to": "/risk-readmission-patients-diabetes-mellitus" }
             ]
         },
+        "aerial-vehicle-collision-detection-system": {
+            "type": "project",
+            "title": "AERIAL VEHICLE COLLISION DETECTION SYSTEM",
+            "image": "netra 1.png",
+            "imageIn": "netra 2.png",
+            "specifications": [
+                {
+                    "title": "Domain",
+                    "bullets": ["Websockets", "GIS"]
+                },
+                {
+                    "title": "Intended Users",
+                    "bullets": ["Drone Operators", "Regulators"]
+                }
+            ],
+            "details": [
+                {
+                    "title": "Introduction",
+                    "subtitle": "",
+                    "image": "",
+                    "type": "paragraph",
+                    "detail": ["Aerial Netra is a web platform that help drones transfer and receive data for higher security and better descision making. Basically aerial flight specially UASs or UAVs are much prone to accidents, very much due to unhealthy cloud conditions imprecise, detecting sensors and a lots of other reasons. And a lot of these happenings can simply be solved by transmitting surrounding data to them. And that's our solution, to suppy aerial vehicles with surrounding info from similar aerial vehicles around them. This can also help drone pilots to be aware od their drone's situation and surrounding to make descisions about the flight."]
+                },
+                {
+                    "title": "Basic Working",
+                    "subtitle": "",
+                    "image": "",
+                    "type": "paragraph",
+                    "detail": ["Main feature basically is a relay mechanism that relays important variables like location-cordinates, temperature, pressure, altitude, speed, etc from a drone to nearest drones(vicinity can be choosen, for now 3 kilometers). This creates an information sponge for the drone which can help drone absorb surrounding information and act accordingly.", 
+                        "Mono Mode: In this mode drone is alone and receives information from surrounding drones and transmits its information to them.", 
+                        "Fleet Mode: In this mode drone is accompanied by fleetmates so that they can share their info no matter where they are, to remain in contact and to aware of their fleetmates. Activation of fleet mode: Upon the press of switch button on the top-right corner of the page, adialog box is received. It contains Fleet-ID which can be used to transmit data between fleetmates, no mater where they are.", ],
+                    "extraDetail": ""
+                },
+                {
+                    "title": "Technicals",
+                    "subtitle": "",
+                    "image": "",
+                    "type": "paragraph",
+                    "detail": ["We used websockets to seamlessly transmit data between drones(which for now is our browsers and a poorly-coded python bot we created). We used Django as web-framework and Django Channels to make websockets work. For the front side, we used Vue-Js."]
+                }
+            ],
+            "buttons": [
+                { "title": "Github", "redirect_to": "https://github.com/SACHIN-PARAJULI/decentral-power-distribution-system-using-blockchain-" },
+            ],
+            "next_page_buttons": [
+                { "title": "Prev Page", "work_name": "Page 1", "redirect_to": "/cbt-blockchain" },
+                { "title": "Next Page", "work_name": "Page 2", "redirect_to": "/risk-readmission-patients-diabetes-mellitus" }
+            ]
+        },
 
 
         "risk-readmission-patients-diabetes-mellitus": {
@@ -445,7 +494,7 @@ export const state = () => ({
                 }
             ],
             "buttons": [
-                { "title": "DOI", "redirect_to": "" },
+                { "title": "DOI", "redirect_to": "https://github.com/SACHIN-PARAJULI/aerial_vehicle_collision_detection" },
             ],
             "next_page_buttons": [
                 { "title": "Prev Page", "work_name": "Page 1", "redirect_to": "/remote-monitoring-and-face-recognition-security-enabled-smart-home-using-iot" },

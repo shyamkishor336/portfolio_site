@@ -8,7 +8,7 @@
                 <nuxt-link to="/#projects-papers">Projects/Papers</nuxt-link>
             </div>
             <div class="text-xl">
-                <nuxt-link to="/">CV</nuxt-link>
+                <a target="_blank" href="/SACHIN_CV.pdf">CV</a>
             </div>
         </div>
         <div class="bg-[url('@/static/mo-main-gradient.png')] h-[95vh] relative" >

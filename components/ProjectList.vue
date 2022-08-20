@@ -138,6 +138,33 @@
                     </a>
                 </div>
             </div>
+
+            <div class="card w-[300px] sm:w-[500px]">
+                <a href ="/aerial-vehicle-collision-detection-system">
+                    <img src="@/static/projects_papers/netra 1.png" class="w-full h-[300px] bg-white object-contain">
+                </a>
+                <div class="uppercase text-base mt-6">
+                    Github
+                </div>
+                <div class="text-2xl text-bold mt-2">
+                    Aerial Vehicle Collision Detection System
+                </div>
+                <div class="mt-2">
+                    <div class="inline-block mt-3">
+                        <span class="p-2 mr-2 mt-5 text-xs bg-slate-300 rounded-lg" >
+                            Websockets
+                        </span>
+                        <span class="p-2 mr-2 text-xs bg-slate-300 rounded-lg" >
+                            GIS
+                        </span>
+                    </div>
+                    <a href ="/aerial-vehicle-collision-detection-system">
+                        <span class="p-2 mt-4 sm:mt-0 pb-1 px-5 text-base border-2 float-right rounded-full cursor-pointer hover:bg-slate-300">
+                            Read More
+                        </span>
+                    </a>
+                </div>
+            </div>
         </div>
 
     </div>

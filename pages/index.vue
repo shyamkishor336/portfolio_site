@@ -38,31 +38,33 @@
 
 <script>
 export default {
-  head() {
-    return {
-      title: "Sachin Parajuli"
-    }
-  },
-  data() {
-    return {
-      onPapers: true,
-      loaded: false
-    }
-  },
-  mounted(){
-    var onPapers = localStorage.getItem("onPapers")
-    if (onPapers == "false") onPapers = false
-    else onPapers = true
-    this.onPapers = onPapers
-    this.loaded = true
-  },
-  watch: {
-    onPapers(value) {
-      if (process.client && this.loaded) {
-        localStorage.setItem("onPapers", value)
-      }
-    }
-  }
+    head() {
+        return {
+            title: "Sachin Parajuli"
+        };
+    },
+    data() {
+        return {
+            onPapers: true,
+            loaded: false
+        };
+    },
+    mounted() {
+        var onPapers = localStorage.getItem("onPapers");
+        if (onPapers == "false")
+            onPapers = false;
+        else
+            onPapers = true;
+        this.onPapers = onPapers;
+        this.loaded = true;
+    },
+    watch: {
+        onPapers(value) {
+            if (process.client && this.loaded) {
+                localStorage.setItem("onPapers", value);
+            }
+        }
+    },
 }
 </script>
 

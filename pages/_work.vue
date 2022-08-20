@@ -59,8 +59,8 @@
       <div class="flex flex-row justify-center mt-[80px]">
         <div class="flex flex-col md:flex-row w-[70vw]">
           <div class="basis-[100%] lg:basis-[30%]">
-            <div class="columns-2 text-center md:text-left">
-              <div class="break-inside-avoid-column mt-5" v-for="specification in work.specifications"
+            <div class="columns-2 text-center md:text-left space-y-5">
+              <div class="break-inside-avoid-column" v-for="specification in work.specifications"
                 :key="specification.title">
                 <div class="text-sm text-white uppercase">
                   {{ specification.title }}
@@ -80,7 +80,7 @@
               w-full
               mt-[30px]
             ">
-            <a v-for="button in work.buttons" :key="button.title" :href="button.redirect_to">
+            <a v-for="button in work.buttons" :key="button.title" :href="button.redirect_to" target="_blank">
               <div class="
                   w-[80px]
                   h-[40px]

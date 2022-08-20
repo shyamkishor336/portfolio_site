@@ -92,7 +92,7 @@
                     Updated Soon
                 </div>
                 <div class="text-2xl text-bold mt-2 capitalize">
-                    nepali music genere classification
+                    nepali music genre classification
                 </div>
                 <div class="mt-2">
                     <div class="inline-block mt-3">
