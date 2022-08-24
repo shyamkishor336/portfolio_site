@@ -72,7 +72,7 @@ export const state = () => ({
             "specifications": [
                 {
                     "title": "Domain",
-                    "bullets": ["Android Applicaiton", "FLutter"]
+                    "bullets": ["Android Applicaiton", "Flutter"]
                 },
                 {
                     "title": "Intended Users",
@@ -462,7 +462,7 @@ export const state = () => ({
 
         "nepali-music-genre-classification": {
             "type": "project",
-            "title": "NEPALI MUSIC GENERE CLASSIFICATION",
+            "title": "NEPALI MUSIC GENERE CLASSIFICATION (Update Soon)",
             "image": "music genre classification.jpg",
             "imageIn": "music genre classification.jpg",
             "specifications": [
