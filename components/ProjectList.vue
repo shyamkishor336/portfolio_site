@@ -17,7 +17,7 @@
                             Android Applicaiton
                         </span>
                         <span class="p-2 mr-2 text-xs bg-slate-300 rounded-lg" >
-                            Java
+                            Flutter
                         </span>
                         
                     </div>
