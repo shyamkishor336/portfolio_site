@@ -109,7 +109,7 @@
                             Fast Fourier Transform
                         </span>
                     </div>
-                    <a href ="/cbt-blockchain">
+                    <a v-show="false" href ="/cbt-blockchain">
                         <span class="p-2 mt-4 sm:mt-0 pb-1 px-5 text-base border-2 float-right rounded-full cursor-pointer hover:bg-slate-300">
                             Read More
                         </span>
