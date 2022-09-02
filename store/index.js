@@ -332,8 +332,6 @@ export const state = () => ({
                 { "title": "Next Page", "work_name": "Page 2", "redirect_to": "/risk-readmission-patients-diabetes-mellitus" }
             ]
         },
-
-
         "risk-readmission-patients-diabetes-mellitus": {
             "type": "project",
             "title": "A DATA DRIVEN APPROACH TO PREDICT THE RISK OF READMISSION AMONG PATIENTS WITH DIABETES MELLITUS",
@@ -375,7 +373,6 @@ export const state = () => ({
                 { "title": "Next Page", "work_name": "Page 2", "redirect_to": "/human-pose-estimation-in-3d-using-heatmaps" }
             ]
         },
-
         "human-pose-estimation-in-3d-using-heatmaps": {
             "type": "project",
             "title": "HUMAN POSE ESTIMATION IN 3D USING HEATMAPS",
@@ -417,7 +414,6 @@ export const state = () => ({
                 { "title": "Next Page", "work_name": "Page 2", "redirect_to": "/remote-monitoring-and-face-recognition-security-enabled-smart-home-using-iot" }
             ]
         },
-
         "remote-monitoring-and-face-recognition-security-enabled-smart-home-using-iot": {
             "type": "project",
             "title": "Remote Monitoring and Face Recognition Security Enabled Smart Home using IoT",
