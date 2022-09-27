@@ -490,7 +490,7 @@ export const state = () => ({
                 }
             ],
             "buttons": [
-                { "title": "DOI", "redirect_to": "https://github.com/SACHIN-PARAJULI/aerial_vehicle_collision_detection" },
+                { "title": "DOI", "redirect_to": "https://github.com/SACHIN-PARAJULI" },
             ],
             "next_page_buttons": [
                 { "title": "Prev Page", "work_name": "Page 1", "redirect_to": "/remote-monitoring-and-face-recognition-security-enabled-smart-home-using-iot" },

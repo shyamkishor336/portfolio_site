@@ -9,7 +9,7 @@
                     IEEE XPLORE
                 </div>
                 <div class="text-2xl text-bold mt-2 capitalize">
-                    A data driven to predict the risk of readmission among patients with diabetes mellitus
+                    A data driven approach to predict the risk of readmission among patients with diabetes mellitus
                 </div>
                 <div class="mt-2">
                     <div class="inline-block mt-3">
